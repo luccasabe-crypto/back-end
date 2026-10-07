@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamesIA - Especialista Nerd</title>
+    <link rel="stylesheet" href="stile.css">
+</head><body>
+    <div class="container">
+        <img src="M - Copia.jpg" width="500" alt="GeekIA Logo">
+        <h2>Especialista em Jogos</h2>
+        <p>Responda e descubra o que combina com você.</p>
+        <form action="GamesIA.php" method="POST">
+            <div class="form-group">
+                <label>O que você prefere?</label>
+                <select name="tipo" required>
+                    <option value="">Selecione...</option>
+                    <option value="Digital">Jogo Digital</option>
+                    <option value="Tabuleiro">Jogo Tabuleiro</option>
+                </select></div>
+            <div class="form-group">
+                <label>Qual gênero você prefere?</label>
+                <select name="genero" required>
+                    <option value="">Selecione...</option>
+                    <option value="Ação">Ação</option>
+                    <option value="RPG">RPG</option>
+                    <option value="Fantasia">Fantasia</option>
+                    <option value="Terror">Terror</option>
+                </select></div>
+            <div class="form-group">
+                <label>Como gosta das histórias?</label>
+                <select name="tamanho" required>
+                    <option value="">Selecione...</option>
+                    <option value="Curtas">Jogos curtos</option>
+                    <option value="Longas">Jogos Longos</option>
+                </select></div>
+            <div class="form-group">
+                <label>Você prefere:</label>
+                <select name="estilo" required>
+                    <option value="">Selecione...</option>
+                    <option value="Conhecido">Algo conhecido</option>
+                    <option value="Diferente">Algo diferente</option>
+                </select>            </div>
+                    <button type="submit">Recomendar 🚀</button>
+        </form></div>
+</body>
+</html>
